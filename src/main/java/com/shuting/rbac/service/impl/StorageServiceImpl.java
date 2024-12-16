@@ -25,7 +25,7 @@ import java.time.LocalDateTime;
 @Slf4j
 @Service
 public class StorageServiceImpl implements StorageService {
-    @Resource
+    @Autowired
     private UploadProperties uploadProperties;
 
     @Override

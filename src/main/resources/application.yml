@@ -1,5 +1,5 @@
 server:
-   port: 9800
+   port: 8081
 
 spring:
   application:
@@ -47,4 +47,4 @@ auth:
 
 #上传目录配置
 upload:
-  static-dir: caoshuting/IdeaProjects/RBAC/
+  static-dir: /Users/caoshuting/IdeaProjects/RBAC/uploadFiles/
